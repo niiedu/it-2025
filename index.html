@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <title>「大学図書館員のためのIT総合研修」2025サンプルサイト</title>
+</head>
+<body>
+  <h1>「大学図書館員のためのIT総合研修」2025サンプルサイト</h1>
+  <h2>総合目録データベースのSQLite形式データ</h2>
+  <p>NACSIS-CATの総合目録データベースの書誌情報はCC BYライセンスによりオープンデータで公開しています。<br>
+そのライセンスをもとに、かなり簡易にではありますが、SQLiteデータベース及びTSV形式に加工しました。<br>
+図書書誌はサイズが大きいため10分の1の120万件にしていますが、他は全件のデータになります。</p>
+  <p>元にした総合目録データベースのデータ公開: <a href="https://contents.nii.ac.jp/catill/about/cat/infocat/od">https://contents.nii.ac.jp/catill/about/cat/infocat/od</a> (2022-04-25時点のもの)</p>
+  <h3>図書書誌</h3>
+  <ul>
+    <li><a href="./data/books_all_1200000.db.zip">図書書誌 SQLite形式</a></li>
+    <li><a href="./data/books_all_1200000.zip">図書書誌 TSV形式</a></li>
+  </ul>
+  <h3>雑誌書誌</h3>
+  <ul>
+    <li><a href="./data/serials.db.zip">雑誌書誌 SQLite形式</a></li>
+    <li><a href="./data/serials.zip">雑誌書誌 TSV形式</a></li>
+  </ul>
+  <h3>著者名典拠</h3>
+  <ul>
+    <li><a href="./data/names.db.zip">著者名典拠 SQLite形式</a></li>
+    <li><a href="./data/mames.zip">著者名典拠 TSV形式</a></li>
+  </ul>
+  </ul>
+  <h3>参加機関</h3>
+  <ul>
+    <li><a href="./data/members.db.zip">参加組織 SQLite形式</a></li>
+    <li><a href="./data/members.zip">参加組織 TSV形式</a></li>
+  </ul>
+  <h2>CiNii Books図書書誌のISBD形式データサンプル100件</h2>
+  <p>CiNii Booksでは、図書書誌をISBD形式で1件づつダウンロードすることができます。
+そこからランダムに100件を選択し、フォルダにまとめました。</p>
+  <ul>
+    <li><a href="./data/ISBD.zip">ISBD形式データサンプル100件</a></li>
+  </ul>
+  <h2>大学構成員ダミーデータ30件</h2>
+  <p><a href="https://hogehoge.tk/personal/">疑似個人情報生成サービス</a>をもとに、大学の構成員を想定したダミーデータを用意しました。</p>
+  <ul>
+    <li><a href="./data/sample_koseiin.db">大学構成員ダミーデータ30件 SQLite形式</a></li>
+    <li><a href="./data/sample_koseiin.tsv">大学構成員ダミーデータ30件 TCV形式</a></li>
+  </ul>
+  <h2>図書受け入れダミーデータ40件</h2>
+  <p>ダミーの図書受け入れデータを用意しました。<br>
+普通に大学図書館システムで使っていそうなレコードをイメージしていますが、意図的に情報を不足させています。</p>
+  <ul>
+    <li><a href="./data/tosho_ukeire.db">図書受け入れダミーデータ40件 SQLite形式</a></li>
+    <li><a href="./data/tosho_ukeire.tsv">図書受け入れダミーデータ40件 TCV形式</a></li>
+  </ul>
+  <h2>ILL複写依頼ダミーデータ10件</h2>
+  <p>NACSIS-CATのILLシステムの情報をもとに、かなり簡略化したILL複写依頼ダミーデータです。</p>
+  <ul>
+    <li><a href="./data/ILL_copy_order.db">ILL複写依頼ダミーデータ10件 SQLite形式</a></li>
+    <li><a href="./data/ILL_copy_order.tsv">ILL複写依頼ダミーデータ10件 TCV形式</a></li>
+     <ul><li>参考</li>
+         <li><a href="https://contents.nii.ac.jp/sites/default/files/catill/2022-08/Diagram.pdf">ILL複写状態遷移図</a></li>
+         <li><a href="https://catill.bitbucket.io/jissou_siyo/ill.searcho.html">依頼ファイル検索定義</a></li>
+     </ul>
+ </ul>
+
+<p>本データは東京大学の前田朗氏作成で、<a href="https://creativecommons.org/licenses/by/4.0/deed.ja">CC BYライセンス</a>にて公開しています。。</p>
+</body>
+</html>
+
+
